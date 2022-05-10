@@ -1,7 +1,7 @@
 import { shallowMount } from '@vue/test-utils'
-import HelloWorld from '@/components/HelloWorld.vue'
+import register from '@/components/RegisterView.vue'
 
-describe('HelloWorld.vue', () => {
+describe('RegisterView.vue', () => {
   it('renders props.msg when passed', () => {
     const msg = 'Welcome to Vue Club, kindly login in.'
     const wrapper = shallowMount(HelloWorld, {
